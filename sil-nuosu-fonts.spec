@@ -5,7 +5,7 @@
 
 Name:           %{fontname}-fonts
 Version:        2.1.1
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        The Nuosu SIL Font
 
 Group:          User Interface/X
@@ -49,6 +49,9 @@ ln -s %{_fontconfig_templatedir}/%{fontconf} \
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.1.1-5
+- Mass rebuild 2013-12-27
+
 * Mon Jun 20 2011  Peng Wu <pwu@redhat.com> - 2.1.1-4
 - Resolves: rhbz#679684
 - Request to add sil-nuosu-fonts to RHEL6
